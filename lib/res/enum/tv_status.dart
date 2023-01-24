@@ -1,0 +1,4 @@
+enum TvStatus {
+  tvOnAir,
+  popular,
+}
