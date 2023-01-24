@@ -72,7 +72,7 @@ class TvItem {
     originalLanguage = json['original_language'];
     originalName = json['original_name'];
     overview = json['overview'];
-    popularity = json['popularity'];
+    popularity = double.parse(json['popularity'].toString());
     posterPath = json['poster_path'];
     voteAverage = double.parse(json['vote_average'].toString());
     voteCount = json['vote_count'];
